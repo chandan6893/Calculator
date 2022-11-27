@@ -1,1 +1,1 @@
-<img src="Calculator\CalC.png" alt="">
+<img src="image\CalC.png" alt="">
