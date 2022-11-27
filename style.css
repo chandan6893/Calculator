@@ -1,0 +1,39 @@
+body{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+.container{
+    background-color: aquamarine;
+    width: 28rem;
+    line-height: 1.5;
+}
+
+.display{
+    background-color:darkslateblue;
+    text-align: right;
+    padding: 0.4rem;
+    color: white;
+    font-size: x-large;
+    height: 1.5rem;
+}
+
+.buttons{
+    background-color:lightblue;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    cursor: pointer;
+}
+
+.btn{
+    /* background-color: tomato; */
+    border: 0.001rem solid black;
+    text-align: center;
+    padding: 5px ;
+    font-weight: bolder;
+}
+.btn:hover{
+    background-color:teal;
+    color:wheat;
+}
